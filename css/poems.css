@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.thumbnail{
+	display: inline-block;
+}
+
+.btn,
+.btn:focus,
+.btn:hover,
+.btn:active:focus,
+.btn.active:focus{
+    outline: none;
+	box-shadow: none;
+	border: none;
+	box-shadow: none;
+	background-color:rgba(0,0,0,0);
+}
+
+.carousel-inner img{ /*图片的大小控制*/
+      width: 1024px;
+	  height: 100px;
+}
+
+/*无效代码.left carousel-control,
+right carousel-control{
+	height: 100px;
+	width: 600px;
+}*/
+
+.item{ /*轮播窗口大小*/
+	width: 1024px;
+	height: 400px;
+}
