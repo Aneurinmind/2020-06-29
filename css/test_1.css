@@ -1,0 +1,99 @@
+			#tm{
+				position:absolute;
+				top:210px;
+				left:275px;
+				width:470px;
+				height:300px;
+				font-family:"幼圆";
+				color:#575757;
+				font-weight:bold;}
+			#tm h2{
+				font-size:24px;
+				}
+			#tm ul{
+				font-size:21px;
+				}
+			#tj{
+				background-color:#ECC7C1;
+				border:0;
+				font-family:"幼圆";
+				color:#575757;
+				font-weight:bold;
+				height:30px;
+				width:65px;
+				font-size:21px;
+				border-radius:3px;
+				position:absolute;
+				left:200px;
+				top:230px;
+				}
+			#an1{
+				position:absolute;
+				top:90px;
+				left:50px;
+			}
+			#an2{
+				position:absolute;
+				top:90px;
+				left:290px;
+			}
+			#an3{
+				position:absolute;
+				top:150px;
+				left:50px;
+			}
+			#an4{
+				position:absolute;
+				top:150px;
+				left:290px;
+			}
+			#cw1{
+				position:absolute;/*答案正误判断图像的定位*/
+				top:80px;
+				left:150px;
+			}
+			#cw2{
+				position:absolute;
+				top:140px;
+				left:180px;
+			}
+			#cw3{
+				position:absolute;
+				top:140px;
+				left:415px;
+			}
+			#zq{
+				position:absolute;
+				top:80px;
+				left:370px;
+			}
+			#ts{
+				position:absolute;
+				top:190px;
+				left:110px;
+				font-size:21px;
+				color:#DD4A4C;
+			}
+			/*内容*/
+			/*下一页*/
+			#xyy a img{
+				position:absolute;
+				top:440px;
+				left:680px;
+				
+				}
+			#xyy a img:hover{
+				  transform:scale(1.1);
+				 
+				}	
+			/*下一页*/
+			/*返回*/
+			#fh a img{
+				position:absolute;
+				top:540px;
+				left:870px;
+				
+				}
+			#fh a img:hover{
+				  transform:scale(1.1);
+				}
