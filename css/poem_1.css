@@ -38,3 +38,25 @@ rt{/*修改拼音位置*/
 	margin-left: 9px;
 	letter-spacing: 1px;
 }
+
+.object_1{
+	color: #C7254E;
+}
+
+.btn,
+.btn:focus,
+.btn:hover,
+.btn:active:focus,
+.btn.active:focus{
+    outline: none;
+	box-shadow: none;
+	border: none;
+	box-shadow: none;
+	background-color:rgba(0,0,0,0);
+}
+
+.glyphicon{
+	position: absolute;
+	top: 370px;
+	left: 25px;
+}
