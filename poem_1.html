@@ -18,24 +18,49 @@
 					羁<rp><rt>jī</rt></rp>					
 					心<rp><rt>xīn</rt></rp>
 					积<rp><rt>jī</rt></rp>
-					秋<span><rp><rt>qiū</rt></rp>
-					晨</span><rp><rt>chén</rt></rp>,
-					晨<rp><rt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chén</rt></rp>
+					<span class="object_1" onmouseover="PlaySound('bgm_1')" 
+                    onmouseout="StopSound('bgm_1')">秋晨</span><rp><rt>qiū&nbsp;&nbsp;chén
+					</rt></rp>,
+					晨<rp><rt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chén</rt></rp>
 					积<rp><rt>jī</rt></rp>
 					展<rp><rt>zhǎn</rt></rp>
 					游<rp><rt>yóu</rt></rp>
 					眺<rp><rt>tiào</rt></rp>。		
 				</ruby>
 			</div>
-			<div>孤客伤逝湍，徒旅苦奔峭。</div>
-			<div>石浅水潺湲，日落山照曜。</div>
-			<div>荒林纷沃若，哀禽相叫啸。</div>
-			<div>遭物悼迁斥，存期得要妙。</div>
-			<div>既秉上皇心，岂屑末代诮。</div>
-			<div>目睹严子濑，想属任公钓。</div>
-			<div>谁谓古今殊，异代可同调。</div>
+			<div class="poem_1_1">孤客伤逝湍，徒旅苦奔峭。</div>
+			<div class="poem_1_1">石浅水潺湲，日落山照曜。</div>
+			<div class="poem_1_1">荒林纷沃若，哀禽相叫啸。</div>
+			<div class="poem_1_1">遭物悼迁斥，存期得要妙。</div>
+			<div class="poem_1_1">既秉上皇心，岂屑末代诮。</div>
+			<div class="poem_1_1">目睹严子濑，想属任公钓。</div>
+			<div class="poem_1_1">谁谓古今殊，异代可同调。</div>
+			
+			<!--播放朗诵音频按钮-->
+			<!--<audio controls preload id="bgm_2" hidden>
+			  <source src="./music/qililai.mp3" type="audio/mp3" />
+			</audio>-->
+			<audio id="bgm_2" src="./music/qililai.mp3"></audio>
+			<button type="button" class="btn btn-default" aria-label="Left Align" onclick="readPlay('bgm_2')">
+			  <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+			</button>
 			</div>
+			<a href="test_1-1.html" class="btn btn-primary btn-lg active" role="button">题目</a>
+			<!--<audio controls="controls">
+			  <source src="song.mp3" type="audio/mp3" />
+			  <source src="song.ogg" type="audio/ogg" />
+			Your browser does not support this audio format.
+			</audio>-->
 		</div>
+		
+		<audio controls preload id="bgm_1" hidden>
+		  <source src="./music/bird.mp3" type="audio/mp3" />
+		  <source src="./music/bird.wav" type="audio/wav" />
+		<object data="./musi.wav ">
+		<embed src="./music/bird.mp3" />
+		</object>
+		</audio>
+		
 		<script src="./js/poem_1.js"></script>
 	</body>
 </html>

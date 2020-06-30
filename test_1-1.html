@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>谢灵运诗词赏析</title>
+		<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/all.css">
+		<link rel="stylesheet" href="./css/test_1-1.css">
+		<script src="./js/jquery-3.5.1.min.js"></script>
+		<script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+		function myFunction()
+		{
+			var abc=document.myform.answer.value;
+			var audio1 = document.getElementById('music1'); 
+			var audio2 = document.getElementById('music2'); 
+			if(abc=="answer1")
+			{
+				document.getElementById("cw1").style.display = "block";
+				document.getElementById("cw2").style.display = "none";
+				document.getElementById("cw3").style.display = "none";
+				document.getElementById("zq").style.display = "none";
+				document.getElementById("ts").style.display = "none";
+			audio2.play(); 
+			}
+			else if(abc=="answer2")
+			{
+				document.getElementById("zq").style.display = "block";
+				document.getElementById("cw1").style.display = "none";
+				document.getElementById("cw2").style.display = "none";
+				document.getElementById("cw3").style.display = "none";
+				document.getElementById("ts").style.display = "none";
+			audio1.play(); 
+			}
+			else if(abc=="answer3")
+			{
+				document.getElementById("cw2").style.display = "block";
+				document.getElementById("cw1").style.display = "none";
+				document.getElementById("zq").style.display = "none";
+				document.getElementById("cw3").style.display = "none";
+				document.getElementById("ts").style.display = "none";
+			audio2.play(); 
+			}
+			else if(abc=="answer4")
+			{
+				document.getElementById("cw3").style.display = "block";
+				document.getElementById("cw1").style.display = "none";
+				document.getElementById("cw2").style.display = "none";
+				document.getElementById("zq").style.display = "none";
+				document.getElementById("ts").style.display = "none";
+			audio2.play(); 
+			}
+			else
+			{
+				document.getElementById("ts").style.display = "block";
+				document.getElementById("zq").style.display = "none";
+				document.getElementById("cw1").style.display = "none";
+				document.getElementById("cw2").style.display = "none";
+				document.getElementById("cw3").style.display = "none";
+			audio2.play(); 
+		}
+		}
+		</script>
+		
+	</head>
+	<body>
+		<div class="rectangle">
+			<a href="index.html" class="btn btn-primary btn-lg active" role="button">返回首页</a>
+		<div id="tm">
+		<h2>1&nbsp;.&nbsp;这首诗表现了什么样的思想感情（）？</h2>
+		<form action="" method="post" name="myform" id="myform">
+		<ul style="list-style:none;">
+		<li id="an1"><input type="radio" value="answer1" name="answer" />快乐</li>
+		<li id="an2"><input type="radio" value="answer2" name="answer" />思乡</li>
+		<li id="an3"><input type="radio" value="answer3" name="answer" />抑郁不得志</li>
+		<li id="an4"><input type="radio" value="answer4" name="answer" />思念朋友</li>
+		</ul>
+		<input type="button" value="检查" name="submit" onclick="myFunction()" id="tj" >
+		
+		<img src="./img/r65.png" width="60px" height="45px" id="cw1" style="display:none">
+		<img src="./img/r65.png" width="60px" height="45px" id="cw2" style="display:none">
+		<img src="./img/r65.png" width="60px" height="45px" id="cw3" style="display:none">
+		<img src="./img/r69.png" width="60px" height="50px" id="zq" style="display:none">
+		<div id="ts" style="display:none">你还没有做题哦！</div>
+		
+		<audio controls preload id="music1" hidden>
+		  <source src=" music/true.mp3" type="audio/mp3" />
+		  <source src=" music/true.ogg" type="audio/ogg" />
+		<object data=" music/true.ogg ">
+		<embed src=" music/true.mp3" />
+		</object>
+		</audio>
+		
+		<audio controls preload id="music2" hidden>
+		  <source src=" music/false.mp3" type="audio/mp3" />
+		  <source src=" music/false.ogg" type="audio/ogg" />
+		<object data=" music/false.ogg ">
+		<embed src=" music/false.mp3" />
+		</object>
+		</audio>
+		
+		</form>
+		</div>
+		<button type="button" class="btn btn-default" aria-label="Left Align" onclick="readPlay('bgm_2')">
+		<!--箭头指向下一页，箭头需要手绘，暂时使用现有样式替代-->
+		  <a href="test_1-2.html"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+		</button>
+		</div>
+	</body>
+</html>
