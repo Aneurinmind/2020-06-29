@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family:'headfont';
+	src: url('fontscaoshu.ttf');
+}
+
+.bb-item{
+	font-family: headfont;
+	font-size: 40px;
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 30px;/*标题位置*/
+}
+
+.context{
+	height: 410px;/*暂时设置的行和高*/
+	width: 850px;
+	background-color: #AFD9EE;
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	font-size: 20px;
+	text-align: left;
+	border-style: solid;
+	border-color: transparent;
+	border-width:18px;
+	line-height: 35px;
+}
+.rectangle{
+	background-image: url(../img/beforeclass.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

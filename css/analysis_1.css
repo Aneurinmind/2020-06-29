@@ -6,7 +6,7 @@
 .rectangle{
 	height: 600px;
 	width: 1005px;
-	background-color: #EBCCCC;/*必要时删除*/
+	background-color: #EBCCCC;
 	text-align: center;
 	position: absolute;
 	left:0;
