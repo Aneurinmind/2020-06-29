@@ -3,10 +3,6 @@
 	padding: 0;
 }
 
-body{
-	overflow: hidden;
-}
-
 @font-face {
 	font-family:'headfont';
 	src: url('fontscaoshu.ttf');
@@ -14,37 +10,42 @@ body{
 
 .headline{
 	font-family: headfont;
-	font-size: 55px;
-	margin-top: 50px;
-}
-
-.headline_2{
-	font-family: headfont;
-	font-size: 50px;
-	margin-left: 500px;
-}
-
-.rectangle{
-	background-image: url(../img/index.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;	
-}
-
-.nav_1{
+	font-size: 40px;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 20px;
+}
+
+.headline_1{
+	font-family: headfont;
+	font-size: 30px;
+	position: relative;
+	margin-top: 20px;
 	background-color: rgba(255,255,255,0);
 	margin:auto;
 }
 
-.nav{
-	width: 800px;
-	height:400px;
+.nexthead {
+	width: 500px;
+	height:300px;
 	background-color: rgba(255,255,255,0);
 	margin: 0 auto;
 	display: flex;
 }
 
+.context{
+	text-align: left;
+	font-size: 24px;
+	line-height: 38px;
+	border-style: solid;
+	border-color: transparent;
+	border-width:18px;
+}
+
+.arrowstyle{
+	position: absolute;
+	top:500px;
+	left:820px;
+}
 
 .item {
   position: relative;
@@ -55,11 +56,10 @@ body{
 
 .rectangle .item:focus,
 .rectangle .item:hover {
-  transform: scale(1.3); 
+  transform: scale(1.2); 
   z-index: 1;
 }
 
-.rectangle img {
-  display: block;
-  max-width: 100%;
-}
+
+
+		

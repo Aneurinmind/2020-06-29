@@ -19,18 +19,14 @@
 	background-color:rgba(0,0,0,0);
 }
 
-.carousel-inner img{ /*图片的大小控制*/
+.carousel-inner img{ 
       width: 1024px;
 	  height: 100px;
 }
 
-/*无效代码.left carousel-control,
-right carousel-control{
-	height: 100px;
-	width: 600px;
-}*/
 
-.item{ /*轮播窗口大小*/
+
+.item{ 
 	width: 1024px;
 	height: 400px;
 }

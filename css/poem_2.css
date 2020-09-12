@@ -27,7 +27,7 @@
 }
 
 .pborder{
-	height: 450px;
+	height: 500px;
 	width: 800px;
 	background-color: rgba(255,255,255,0.7);
 	text-align: center;
@@ -63,7 +63,7 @@ rt{
 
 .glyphicon{
 	position: absolute;
-	top: 415px;
+	top: 465px;
 	left: 25px;
 }
 
@@ -94,12 +94,12 @@ rt{
 
 .arrowstyle_1{
 				position: absolute;
-				top:450px;
-				right:750px;
+				top:530px;
+				right:850px;
 			}
 			
 .arrowstyle_2{
 				position: absolute;
-				top:450px;
-				left:750px;
+				top:530px;
+				left:850px;
 			}

@@ -88,18 +88,18 @@ rt{
 
 .rectangle .item_2:focus,
 .rectangle .item_2:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   z-index: 1;
 }
 
 .arrowstyle_1{
 				position: absolute;
-				top:450px;
-				right:750px;
+				top:530px;
+				right:850px;
 			}
 			
 .arrowstyle_2{
 				position: absolute;
-				top:450px;
-				left:750px;
+				top:530px;
+				left:850px;
 			}

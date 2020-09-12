@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.rectangle{
+	background-image: url(../img/bg_3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face {
+	font-family:'headfont';
+	src: url('fontscaoshu.ttf');
+}
+
+.headline{
+	font-family: headfont;
+	font-size: 50px;
+	line-height: 100px;
+}
+
+.pborder{
+	height: 420px;
+	width: 800px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: left;
+	position: absolute;
+	left:0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	border:22px solid transparent;
+	border-radius:30px;
+	color: white;
+	font-size: 20px;
+}
+
+.context{
+	font-size: 22px;
+	line-height: 38px;
+	border-style: solid;
+	border-color: transparent;
+	border-width:18px;
+	color: white;
+}
+
+.arrowstyle{
+	position: absolute;
+	top:440px;
+	left:800px;
+}
+
+.arrowstyle_2{
+	position: absolute;
+	top:440px;
+	right:800px;
+}
+
+.arrowstyle_3{
+	position: absolute;
+	top:490px;
+	right:660px;
+}
+
+.item {
+  position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+}
+
+.rectangle .item:focus,
+.rectangle .item:hover {
+  transform: scale(1.08); 
+  z-index: 1;
+}
+
+p{
+		    
+		    height: 0px;
+		    
+		    overflow: hidden;
+}
+input:checked~p{
+		    
+		    overflow: visible;
+}
+

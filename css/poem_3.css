@@ -21,6 +21,7 @@
 }
 
 .poem_1_1{
+	margin-top: 20px;
 	font-size: 20px;
 	letter-spacing: 30px;
 	line-height: 40px;
@@ -94,12 +95,12 @@ rt{
 
 .arrowstyle_1{
 				position: absolute;
-				top:450px;
-				right:750px;
+				top:530px;
+				right:850px;
 			}
 			
 .arrowstyle_2{
 				position: absolute;
-				top:450px;
-				left:750px;
+				top:530px;
+				left:850px;
 			}
