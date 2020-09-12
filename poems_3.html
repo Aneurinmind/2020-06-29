@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>谢灵运诗词赏析</title>
+		<link rel="stylesheet" type="text/css" href="./css/all.css">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.bg{
+				width: 250px;
+				height: 300px;
+				margin:150px auto;
+				position: relative;
+			    perspective: 700px;
+			}
+			.bg div{
+				width: 250px;
+				height: 300px;
+				text-align: center;
+				line-height: 400px;
+				backface-visibility: hidden;
+				transition: all 1s;
+			}
+			.a{
+				background-color:transparent;
+				transform: rotateY(180deg);
+			}
+			.b{
+				background-color: lightcoral;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			.bg:hover .a{
+				transform: rotateY(0deg);
+			}
+			.bg:hover .b{
+				transform: rotateY(-180deg);
+			}
+			.area{
+				width: 800px;
+				height:400px;
+				background-color: rgba(255,255,255,0);
+				margin: 0 auto;
+				display: flex;
+			}
+			.rectangle{
+				background-image: url(img/poems_1.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.arrowstyle{
+				position: absolute;
+				top:500px;
+				left:40px;
+			}
+			.item {
+			  position: relative;
+			  display: block;
+			  flex: 1 1 0px;
+			  transition: transform 500ms;
+			}
+			
+			.rectangle .item:focus,
+			.rectangle .item:hover {
+			  transform: scale(1.2); 
+			  z-index: 1;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="rectangle">
+		<div class="area">
+		<div class="bg">
+			<div class="a">
+				<a href="poem_7.html">
+					<img src="./img/start_4.png">
+				</a>
+			</div>
+			<div class="b">
+				<img src="./img/under_7.jpg">
+			</div>
+		</div>
+		<div class="bg">
+			<div class="a">
+				<a href="poem_8.html">
+					<img src="./img/start_4.png">
+				</a>
+			</div>
+			<div class="b">
+				<img src="./img/under_8.jpg">
+			</div>
+		</div>
+		<div class="bg">
+			<div class="a">
+				<a href="poem_9.html">
+					<img src="./img/start_4.png">
+				</a>
+			</div>
+			<div class="b">
+				<img src="./img/under_9.jpg">
+			</div>
+		</div>
+		</div>
+		<div class="arrowstyle">
+		    <a href="map.html"><img src="img/arrow_3.png" style="width: 140px;height: 95px;" class="item"></a>
+		</div>
+		</div>
+	</body>
+</html>

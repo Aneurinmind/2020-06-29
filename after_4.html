@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>谢灵运诗词赏析</title>
+		<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/all.css">
+		<link rel="stylesheet" href="./css/after_4.css">
+		<script src="./js/jquery-3.5.1.min.js"></script>
+		<script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="rectangle">
+			<div class="headline">
+				习 题 巩 固
+			</div>
+			<div class="pborder">
+				<div class="context" id="showWord">
+					<div style="display:none" id="word">
+					   五、诗人借“山阿人”隐喻哪类人？（《从斤竹涧越岭溪行》）
+					</div>
+					<script language="javascript">
+					    var index=0;
+					    var word=document.getElementById("word").innerHTML;
+					    function type(){
+					        document.getElementById("showWord").innerText = word.substring(0,index++);
+					    }
+					    setInterval(type, 150);
+					</script>
+					
+				</div>
+				
+				<input type="checkbox" id="dianji">
+				<label for="dianji">
+				    解答
+				</label>
+				<p>
+					&emsp;&emsp;借喻避居山林与世隔绝的高人隐士，他们的高尚品质为诗人所敬慕，
+					而他们所生活的自由天地则更为作者所向往。
+					可是这样的人只存在于诗人的理想或幻想之中，因此作者所向往和欣慕的那种超脱尘世的生活也就无从成为现实。
+				</p>
+			</div>
+			<div class="arrowstyle_2">
+			    <a href="after_3.html"><img src="img/arrow_5.png" style="width: 60px;height: 50px;" class="item"></a>
+			</div>
+			<div class="arrowstyle">
+			    <a href="after_5.html"><img src="img/arrow_4.png" style="width: 60px;height: 50px;" class="item"></a>
+			</div>
+			<div class="arrowstyle_3">
+			    <a href="index.html"><img src="img/arrow_6.png" style="width: 350px;height: 100px;" class="item"></a>
+			</div>
+		</div>
+	</body>
+</html>
