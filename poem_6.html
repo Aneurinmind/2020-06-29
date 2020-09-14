@@ -15,8 +15,8 @@
 			<div class="headline">从斤竹涧越岭溪行</div>
 			<div class="poem_1_1">
 				<ruby>
-					猿<rp><rt>yuán</rt></rp>					
-					鸣<rp><rt>míng</rt></rp>
+					<span class="object_1" onmouseover="PlaySound('bgm_1')"
+					onmouseout="StopSound('bgm_1')">猿鸣</span><rp><rt>yuán&nbsp;&nbsp;míng</rt></rp>
 					诚<rp><rt>chéng</rt></rp>
                     知<rp><rt>zhī</rt></rp>
 					曙<rp><rt>shǔ</rt></rp>,
@@ -98,7 +98,13 @@
 				</ruby>
 			</div>
 			
-			
+			<audio controls preload id="bgm_1" hidden>
+			  <source src="./music/yuan.mp3" type="audio/mp3" />
+			  <source src="./music/yuan.wav" type="audio/wav" />
+			<object>
+			<embed src="./music/yuan.mp3" />
+			</object>
+			</audio>
 			
 			<audio id="bgm_2" src="./music/congjinzhujian.mp3"></audio>
 			<button type="button" class="btn btn-default" aria-label="Left Align" onclick="readPlay('bgm_2')">
@@ -114,6 +120,6 @@
 			
 		</div>
 		
-		<script src="./js/poem_1.js"></script>
+		<script src="./js/poem_6.js"></script>
 	</body>
 </html>

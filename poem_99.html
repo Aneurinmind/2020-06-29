@@ -38,8 +38,8 @@
 				园<rp><rt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yuán</rt></rp>
 				柳<rp><rt>liǔ</rt></rp>
 				变<rp><rt>biàn</rt></rp>
-				鸣<rp><rt>míng</rt></rp>
-				禽<rp><rt>qín</rt></rp>。
+				<span class="object_1" onmouseover="PlaySound('bgm_3')"
+				onmouseout="StopSound('bgm_3')">鸣禽</span><rp><rt>míng&nbsp;&nbsp;qín</rt></rp>。
 				</ruby>
 			</div>
 			<div class="poem_1_1">
@@ -85,6 +85,14 @@
 				</ruby>
 			</div>
 
+            <audio controls preload id="bgm_3" hidden>
+              <source src="./music/bird.mp3" type="audio/mp3" />
+              <source src="./music/bird.wav" type="audio/wav" />
+            <object>
+            <embed src="./music/bird.mp3" />
+            </object>
+            </audio>
+			
 			<audio id="bgm_2" src="./music/dengchishang.mp3"></audio>
 			<button type="button" class="btn btn-default" aria-label="Left Align" onclick="readPlay('bgm_2')">
 			  <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
@@ -100,6 +108,6 @@
 		</div>
 		
 		
-		<script src="./js/poem_1.js"></script>
+		<script src="./js/poem_9.js"></script>
 	</body>
 </html>
